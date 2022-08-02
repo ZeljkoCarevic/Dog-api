@@ -1,0 +1,85 @@
+body {
+  font-family: "Heebo", sans-serif;
+
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 0px;
+}
+
+.header > h1 {
+  margin: 0px;
+}
+.breed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.breed > h3 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  text-align: center;
+}
+
+.random {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.random > h3 {
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: grey;
+  transition: 0.3s ease-in;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+}
